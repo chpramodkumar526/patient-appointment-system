@@ -33,6 +33,8 @@ public class AppointmentController {
     // helper: always issue a 401 + Basic challenge
 
     //this is pramod
+
+    //kumar ch
     private ResponseEntity<?> unauthorized() {
         HttpHeaders headers = new HttpHeaders();
         headers.set(HttpHeaders.WWW_AUTHENTICATE, "Basic realm=\"PatientAPI\"");
